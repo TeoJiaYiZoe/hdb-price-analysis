@@ -8,6 +8,15 @@ The aim of this project is to provide an interactive web app for **estimating HD
 
 ### Backend
 
+First, run the notebook to generate the model pipeline:
+
+```bash
+   jupyter notebook hdb_price_insight.ipynb
+```
+
+This will create the file:full_pipeline.pkl
+Create a folder in backend named model and place it the pkl file inside the folder. (backend/model/full_pipeline.pkl)
+
 ```bash
 cd backend
 python -m venv .venv
